@@ -1,0 +1,64 @@
+Running Java Medius Encrypt/Decrypt tests ...
+==== SHA1 TEST ====
+Data: 0101010101010101010101010101010101FF0101
+Hashed CipherContext(0x00/ID_00): 92AD2A02
+Hashed CipherContext(0x01/RC_SERVER_SESSION): 92AD2A22
+Hashed CipherContext(0x02/ID_02): 92AD2A42
+Hashed CipherContext(0x03/RC_CLIENT_SESSION): 92AD2A62
+Hashed CipherContext(0x04/ID_04): 92AD2A82
+Hashed CipherContext(0x05/ID_05): 92AD2AA2
+Hashed CipherContext(0x06/ID_06): 92AD2AC2
+Hashed CipherContext(0x07/RSA_AUTH): 92AD2AE2
+
+==== PS2 RC4 TEST ====
+Key: 42424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242424242
+Data: 48656C6C6F20576F726C6421
+Encrypted status: true
+Encrypted data: CF1AA27E2926C8FA388A40C6
+Encryption hash: 2EF7BD06
+Decrypted status: true
+Decrypted data: 48656C6C6F20576F726C6421
+----
+Encrypted status: true
+Encrypted data: 79C2FFDDF5F73E09BA6F32E6
+Encryption hash: 2EF7BD26
+Decrypted status: true
+Decrypted data: 48656C6C6F20576F726C6421
+----
+Encrypted status: true
+Encrypted data: 57EBAD633C618490D1BFB35D
+Encryption hash: 2EF7BD46
+Decrypted status: true
+Decrypted data: 48656C6C6F20576F726C6421
+----
+Encrypted status: true
+Encrypted data: 2258E3BE7DEEE4D1B83588CF
+Encryption hash: 2EF7BD66
+Decrypted status: true
+Decrypted data: 48656C6C6F20576F726C6421
+----
+Encrypted status: true
+Encrypted data: 87854D62CB327E0FF15B62D1
+Encryption hash: 2EF7BD86
+Decrypted status: true
+Decrypted data: 48656C6C6F20576F726C6421
+----
+Encrypted status: true
+Encrypted data: 90A583DBDA68672D97F4E8FB
+Encryption hash: 2EF7BDA6
+Decrypted status: true
+Decrypted data: 48656C6C6F20576F726C6421
+----
+Encrypted status: true
+Encrypted data: B103C686073ECEEA4BCFC9D6
+Encryption hash: 2EF7BDC6
+Decrypted status: true
+Decrypted data: 48656C6C6F20576F726C6421
+----
+Encrypted status: true
+Encrypted data: 70630307E48CAB42D15CC647
+Encryption hash: 2EF7BDE6
+Decrypted status: true
+Decrypted data: 48656C6C6F20576F726C6421
+----
+

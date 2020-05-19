@@ -12,7 +12,7 @@ public class Test {
 
 		Ps2Rc4Test();
 		Console.WriteLine();
-		
+
 	}
 
 	private static void Sha1Test() {
@@ -24,6 +24,8 @@ public class Test {
 			1, 1, 1, 1, 1,
 			1, 1, 255, 1, 1
 		};
+
+		Print("Data: " + BitConverter.ToString(data).Replace("-", ""));
 
 		foreach (CipherContext context in (CipherContext[]) Enum.GetValues(typeof(CipherContext))) {
 			Print("Hashed CipherContext(" + context + "): " + BitConverter.ToString(SHA1.Hash(data, context)).Replace("-", ""));
